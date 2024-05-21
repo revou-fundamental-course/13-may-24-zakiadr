@@ -1,2 +1,51 @@
-/* Untuk test git */
-/* Tambahan */
+
+.segitiga{
+    text-align: center;
+    font-size: larger;
+    background-color: blue;
+    color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    border: black solid;
+    border-radius: 10px;
+}
+p {
+    font-size:large;
+}
+#keliling {
+    background-color:white;
+    width: 100%;
+    color: blue;
+    padding: 10px;
+    border: none;
+}
+
+h3{
+    text-align: center;
+    border: black solid;
+    padding: 20px;
+    font-size: xx-large;
+    background-color: brown;
+    color: aliceblue;
+}
+img{
+    width: 100%;
+   
+   
+    
+}
+h4 {
+    text-align: center;
+    font-size: x-large;
+
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+.hitung {
+    height: 30px;
+    width: 30%;
+    top: 50%;
+}
