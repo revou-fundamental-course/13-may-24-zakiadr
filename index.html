@@ -16,17 +16,18 @@
     
     <section>
         <p>
-            Ini adalah website untuk menghitung keliling segitiga dan luas segitiga
+            Ini adalah website untuk menghitung luas segitiga dan keliling segitiga
         </p>
     </section>
 </div>
     <section>
         <h2 class="segitiga">Segitiga</h2>
     </section>
-    <button id="keliling"><u>
+    <nav>
+    <button id="keliling"><a href="#jump"><u>
         Keliling Segitiga
-        </u>
-    </button>
+        </u></a></button>
+    </nav>
     <section>
         <h3> Luas Segitiga</h3>
     </section>
@@ -56,21 +57,65 @@
             Hitung Luas Segitiga
         </h1>
     </section>
-    <div>
+    <form id="numberform">
         <section>
-            <p>Alas</p>
-            <input type="number">
+            <label for="alas">Alas :</label>
+            <input type="number" id="alas">
         </section>
         <section>
-            <p>
-                Tinggi
-            </p>
-            <input type="number">
+            <br>
+           <label for="tinggi">Tinggi :</label>
+            <input type="number" id="tinggi">
+            
         </section>
-    </div>
+    </form>
     <nav>
-        <button class="hitung">
-            Hitung
-        </button>
+        <br>
+       <button id="hitung">Hitung</button>
+       
+       <button id="reset" onclick="myFunction()" value="reset">Reset</button>
     </nav>
+    <br>
+    <div id="output"></div>
+    <h3 id="jump">Keliling Segitiga</h3>
+    <section>
+        <img src="https://aura-ilmu.com/global/wp-content/uploads/sites/2/2020/11/segitiga-300x210.jpg.webp" alt="gambar segitiga">
+    </section>
+    <section>
+        <p>
+            Rumus keliling segitiga yaitu :
+        </p>
+        <h4>
+            K= S1 + S2 + S3
+        </h4>
+        <p>
+            Dimana :
+            <br>
+            K= Keliling
+            <br>
+            S1= Sisi a <br>
+            S1= Sisi b <br>
+            S1= Sisi c <br>
+            
+        </p>
+        <h1>Hitung Keliling Segitiga</h1>
+    </section>
+    <form id="formkeliling">
+        <label for="sisi1">S1 :</label>
+        <input type="number" id="sisi1"><br>
+        <label for="sisi2">S2 :</label>
+        <input type="number" id="sisi2"><br>
+        <label for="sisi3">S3 :</label>
+        <input type="number" id="sisi3"><br>
+    </form>
+    <section>
+    <button id="hitungkeliling">Hitung</button>
+    <button id="resetkeliling" onclick="myFunction()" value="resetkeliling">Reset</button>
+    </section>
+    <br>
+    <div id="outputkeliling"></div>
+
+   
+  
+<script src="js/script.js"></script>
 </html>

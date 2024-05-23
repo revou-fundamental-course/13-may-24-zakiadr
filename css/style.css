@@ -31,6 +31,8 @@ h3{
 }
 img{
     width: 100%;
+    
+
    
    
     
@@ -44,8 +46,61 @@ h1 {
     text-align: center;
     font-size: xx-large;
 }
-.hitung {
-    height: 30px;
-    width: 30%;
-    top: 50%;
+#alas {
+    width: 100%;
+    border: 2px solid wheat;
+    background-color:coral;
+    color: white;
+}
+#tinggi {
+    width: 100%;
+    border: 2px solid wheat;
+    background-color:coral;
+    color: white;
+}
+#hitung {
+    padding: 10px;
+    width: 25%;
+    border-radius: 72px;
+    background-color: aqua;
+
+}
+#reset {
+    padding: 10px;
+    width: 25%;
+    border-radius: 72px;
+    background-color: red;
+    color: white;
+
+}
+#sisi1 {
+    width: 100%;
+    border: 2px solid wheat;
+    background-color:coral;
+    color: white;
+}
+#sisi2 {
+    width: 100%;
+    border: 2px solid wheat;
+    background-color:coral;
+    color: white;
+}
+#sisi3 {
+    width: 100%;
+    border: 2px solid wheat;
+    background-color:coral;
+    color: white;
+}
+#hitungkeliling {
+    padding: 10px;
+    width: 25%;
+    border-radius: 72px;
+    background-color: chartreuse;
+}
+#resetkeliling {
+    padding: 10px;
+    width: 25%;
+    border-radius: 72px;
+    background-color: red;
+    color: white;
 }
